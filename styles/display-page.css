@@ -1,0 +1,43 @@
+main {
+  padding: 30px;
+  /* setting font-size to 0 on the parent of a set of inline block elements removes white space between them.    */
+  width: 800px;
+  margin: auto;
+  font-size: 0;
+}
+
+.top-third {
+  height: 200px;
+  width: 50%;
+  display: inline-block;
+  font-size: 0;
+}
+
+.bottom-two-third {
+height: 300px;
+width: 33.33%;
+display: inline-block;
+font-size: 0;
+
+}
+
+.tt-one {
+   background-color: forestgreen;
+}
+
+.tt-two {
+  background-color: royalblue;
+}
+
+.bt-one {
+  background-color: gray;
+}
+
+.bt-two {
+  background-color: black;
+}
+
+.bt-three {
+
+  background-color: tan;
+}
