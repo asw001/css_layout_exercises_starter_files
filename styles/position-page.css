@@ -1,1 +1,42 @@
 
+
+
+
+main {
+	padding-left: 60px;
+	padding-right: 60px; 
+
+
+}
+
+.cat {
+
+	top: 100px;
+	position: relative;
+	left: 200px;
+
+}
+
+.box {
+
+	height: 300px;
+	width: 600px;
+	border: dotted green 10px;
+	margin: auto;
+}
+
+.dog {
+
+
+bottom: 100px;
+position: relative;
+left: 800px;
+}
+
+
+main {
+	/* This image will be displayed fullscreen */
+	background-image: url("outerspace_landscape.jpeg");
+
+	
+}
