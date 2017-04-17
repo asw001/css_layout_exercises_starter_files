@@ -23,6 +23,8 @@ nav {
 nav img {
 	border-radius: 50%;
 	margin-left: 60px;
+	border: solid black 1px;
+
 }
 
 nav ul {
