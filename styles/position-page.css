@@ -9,14 +9,6 @@ main {
 
 }
 
-.cat {
-
-	top: 100px;
-	position: relative;
-	left: 200px;
-
-}
-
 .box {
 
 	height: 300px;
@@ -25,18 +17,20 @@ main {
 	margin: auto;
 }
 
+.cat {
+
+	position: relative;
+}
+
+
+
 .dog {
-
-
-bottom: 100px;
 position: relative;
-left: 800px;
 }
 
 
 main {
 	/* This image will be displayed fullscreen */
-	background-image: url("outerspace_landscape.jpeg");
+	background-image: url("../images/outerspace_landscape.jpeg");
 
-	
-}
+	}
