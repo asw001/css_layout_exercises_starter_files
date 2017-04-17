@@ -1,16 +1,51 @@
 
 
 
+body {
+	/* This image will be displayed fullscreen */
+	background-image: url("../images/outerspace_landscape.jpeg");
+	background-size: cover;
+}
+
 
 main {
 	padding-left: 60px;
 	padding-right: 60px; 
+}
 
+nav {
+	height: 60px;
+	background-color: lightgrey;
+	position: relative;
+	width: 100%;
+}
 
+nav img {
+	border-radius: 50%;
+	margin-left: 60px;
+}
+
+nav ul {
+	display: inline-block;
+	list-style: none;
+	position:absolute;
+	left: : 30;
+	margin-left: 20px;
+	font-size: 100%;
+	vertical-align: middle;
+}
+
+nav li {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+main {
+
+	margin-top: 200px;
 }
 
 .box {
-
 	height: 300px;
 	width: 600px;
 	border: dotted green 10px;
@@ -18,19 +53,15 @@ main {
 }
 
 .cat {
-
 	position: relative;
+	left: -90px;
+	top: -100px;
 }
-
-
 
 .dog {
-position: relative;
+	position: relative;
+	right: -260px;
+	bottom: -180px;
 }
 
 
-main {
-	/* This image will be displayed fullscreen */
-	background-image: url("../images/outerspace_landscape.jpeg");
-
-	}
